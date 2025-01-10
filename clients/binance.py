@@ -1,4 +1,4 @@
-from cryptoApp.clients.client import Client
+from clients.client import Client
 
 class BinanceClient(Client):
     def __init__(self, last_open_time) -> None:
